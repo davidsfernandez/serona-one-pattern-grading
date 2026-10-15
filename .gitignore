@@ -1,0 +1,35 @@
+# .NET
+bin/
+obj/
+artifacts/
+TestResults/
+*.user
+*.suo
+
+# IDE
+.vs/
+.vscode/
+.idea/
+
+# Runtime / local data
+logs/
+tmp/
+out/
+*.log
+
+# Secrets and local configuration
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.cer
+secrets/
+
+# Customer / CAD artifacts
+*.ads
+*.plt
+
+# OS
+Thumbs.db
+.DS_Store
